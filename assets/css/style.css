@@ -1,34 +1,71 @@
 /*  ! HEADER  */
 
 header {
-  height: 75px;
+  height: 90px;
   background-color: #868686;
 }
 
 
 /*  ! MAIN  */
 main {
-  height: calc(100vh - 75px);
-  /*height header*/
-  overflow: auto;
-
+  height: calc(100vh - 90px);
   /* * debug */
-  background-color: rgb(10, 10, 10);
+  background-color: rgb(219, 110, 8);
+  overflow: auto;
 }
 
 .main-wrapper {
+  height: calc(100vh - 90px);
+  overflow: auto;
   width: 85%;
   /*width aside*/
 }
 
 /*  ! ASIDE  */
 .aside {
+  height: calc(100vh - 90px);
   width: 15%;
   color: #fff;
   background-color: #051E34;
   background-image: url('../img/sidebar-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* * navbar top da tablet in su */
+
+.navbar-top,
+.navbar-bottom {
+  margin: 0 auto;
+}
+
+.navbar-top ul,
+.navbar-bottom ul {
+  padding: 0;
+}
+
+.navbar-top li,
+.navbar-bottom li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.navbar-top a,
+.navbar-bottom a {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.navbar-top i,
+.navbar-bottom i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.navbar-bottom li {
+  margin-bottom: 0;
 }
 
 
@@ -73,7 +110,7 @@ i.fa-solid.fa-code {
 /* * card */
 
 .card_custom {
-  width: 22rem;
+  width: 95%;
 }
 
 /* * card grafico */
