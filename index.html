@@ -37,525 +37,534 @@
   </head>
   <body>
 
-    <header class="d-flex justify-content-between align-items-center">
+    <header class="d-flex align-items-center">
+      <div class="container-fluid">
+        <div class="row">
 
-      <div class="navbar-main w-100">
-
-        <div class="container-fluid">
-
-          <div class="row">
-
-            <div class="col col-md-1 col-lg-2">
-
-              <div class="logo">
-                <img class="d-none d-lg-block" src="assets/img/logo.svg"
-                  alt="logo-large">
-
-                <img class="d-lg-none" src="assets/img/mobile-logo.png"
-                  alt="logo-mobile">
-              </div>
-
+          <div class="col-2 d-flex align-items-center col-logo">
+            <div class="logo d-flex">
+              <img class="logo-large d-none d-lg-block"
+                src="assets/img/logo.svg" alt="logo">
+              <img class="logo-mobile d-lg-none"
+                src="assets/img/mobile-logo.png"
+                alt="logo-mobile">
             </div>
+          </div>
 
-            <div class="col">
-
-              <div class="form">
-                <i class="fa fa-search"></i>
-                <input type="text" class="form-control form-input
-                  form-control_custom"
-                  placeholder="Prova a cercare 'Quanti ragazzi di classe 75
-                  mangiano la pizza?'">
-              </div>
-
+          <div class="col d-flex align-items-center me-2">
+            <div class="form w-100">
+              <i class="fa fa-search"></i>
+              <input type="text" class="form-control form-input
+                form-control_custom"
+                placeholder="Scrivi per ricercare...'">
             </div>
+          </div>
 
-            <div class="col col-lg-2 d-none d-lg-inline-block custom_icons">
+          <div class="col-2 d-flex align-items-center justify-content-center
+            navbar-right">
+            <div class="icons_custom d-none d-lg-block">
               <i class="fa-solid fa-list"></i>
               <i class="fa-solid fa-circle-question"></i>
               <i class="fa-solid fa-ellipsis-vertical"></i>
             </div>
+            <i class="fa-solid fa-bell"></i>
+          </div>
 
-            <div class="col-1>
-              <i class="fa-solid fa-bell"></i> hdhd
+        </div>
+
+      </header>
+
+      <main class="d-flex">
+
+        <!-- ! ASIDE -->
+
+        <div class="aside nav-mobile d-md-none d-flex flex-column
+          justify-content-between py-4 px-2">
+
+          <!-- * navbar top da tablet in su -->
+          <div class="navbar-top">
+            <ul>
+              <li>
+                <a href="#"><i class="fa-solid fa-house"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-chart-simple"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-signal"></i></a>
+              </li>
+            </ul>
+          </div>
+          <!-- * /navbar top da tablet in su -->
+
+          <!-- * navbar bottom da tablet in su -->
+
+          <div class="navbar-bottom">
+            <ul>
+              <li>
+                <a href="#"><i class="fa-solid fa-gear"></i></a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- * /navbar bottom da tablet in su -->
+
+        </div>
+        <div class="aside nav-tablet d-none d-md-flex d-flex flex-column
+          justify-content-between p-4">
+
+          <!-- * navbar top da tablet in su -->
+          <div class="navbar-top">
+            <ul>
+              <li>
+                <i class="fa-solid fa-house"></i>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-chart-simple"></i>
+                <a href="#">Stats</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-signal"></i>
+                <a href="#">Signal</a>
+              </li>
+            </ul>
+          </div>
+          <!-- * /navbar top da tablet in su -->
+
+          <!-- * navbar bottom da tablet in su -->
+
+          <div class="navbar-bottom">
+            <ul>
+              <li>
+                <i class="fa-solid fa-gear"></i>
+                <a href="#">Admin</a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- * /navbar bottom da tablet in su -->
+
+        </div>
+
+        <!-- ! MAIN - WRAPPER -->
+
+        <div class="container-fluid main_wrapper">
+
+          <!-- todo fake header -->
+          <div class="row row_header">
+
+            <div class="col-sm-12 col-md-8 my-3">
+              <h2>Boolean</h2>
+              <span class="badge rounded-pill text-bg-primary
+                text-bg-primary_custom">Piano blaze</span>
+              <span class="badge rounded-pill text-bg-primary
+                text-bg-primary_custom">3 app</span>
+              <span class="badge rounded-pill text-bg-primary
+                text-bg-primary_custom">Boolean mobile app</span>
+              <span class="badge rounded-pill text-bg-primary
+                text-bg-primary_custom">Boolean web app</span>
+              <span class="badge rounded-pill text-bg-primary
+                text-bg-primary_custom">Boolean blog app</span>
+            </div>
+
+            <div class="col-sm-12 col-md-4 my-3">
+              <p>Alunni affranti negli ultimi 30 minuti</p>
+              <h2>12</h2>
             </div>
 
           </div>
+          <!-- todo /fake header -->
 
-        </div>
+          <!-- todo main contenent -->
+          <div class="row">
 
-      </div>
+            <div class="col-sm-12 col-md-8">
 
-    </header>
+              <div class="row">
+                <div class="col">
 
-    <main class="d-flex">
+                  <!-- * Prossime classi -->
+                  <div class="card w-100 my-3" style="width: 18rem;">
+                    <div class="card-header">
+                      <h2>Prossime classi</h2>
+                    </div>
 
-      <!-- ! ASIDE -->
-
-      <div class="aside nav-mobile d-md-none d-flex flex-column
-        justify-content-between py-4 px-2">
-
-        <!-- * navbar top da tablet in su -->
-        <div class="navbar-top">
-          <ul>
-            <li>
-              <a href="#"><i class="fa-solid fa-house"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa-solid fa-chart-simple"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa-solid fa-signal"></i></a>
-            </li>
-          </ul>
-        </div>
-        <!-- * /navbar top da tablet in su -->
-
-        <!-- * navbar bottom da tablet in su -->
-
-        <div class="navbar-bottom">
-          <ul>
-            <li>
-              <a href="#"><i class="fa-solid fa-gear"></i></a>
-            </li>
-          </ul>
-
-        </div>
-        <!-- * /navbar bottom da tablet in su -->
-
-      </div>
-      <div class="aside nav-tablet d-none d-md-flex d-flex flex-column
-        justify-content-between p-4">
-
-        <!-- * navbar top da tablet in su -->
-        <div class="navbar-top">
-          <ul>
-            <li>
-              <i class="fa-solid fa-house"></i>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <i class="fa-solid fa-chart-simple"></i>
-              <a href="#">Stats</a>
-            </li>
-            <li>
-              <i class="fa-solid fa-signal"></i>
-              <a href="#">Signal</a>
-            </li>
-          </ul>
-        </div>
-        <!-- * /navbar top da tablet in su -->
-
-        <!-- * navbar bottom da tablet in su -->
-
-        <div class="navbar-bottom">
-          <ul>
-            <li>
-              <i class="fa-solid fa-gear"></i>
-              <a href="#">Admin</a>
-            </li>
-          </ul>
-
-        </div>
-        <!-- * /navbar bottom da tablet in su -->
-
-      </div>
-
-      <!-- ! MAIN - WRAPPER -->
-
-      <div class="container-fluid main_wrapper">
-
-        <!-- todo fake header -->
-        <div class="row row_header">
-
-          <div class="col-sm-12 col-md-8 my-3">
-            <h2>Boolean</h2>
-            <span class="badge rounded-pill text-bg-primary
-              text-bg-primary_custom">Piano blaze</span>
-            <span class="badge rounded-pill text-bg-primary
-              text-bg-primary_custom">3 app</span>
-            <span class="badge rounded-pill text-bg-primary
-              text-bg-primary_custom">Boolean mobile app</span>
-            <span class="badge rounded-pill text-bg-primary
-              text-bg-primary_custom">Boolean web app</span>
-            <span class="badge rounded-pill text-bg-primary
-              text-bg-primary_custom">Boolean blog app</span>
-          </div>
-
-          <div class="col-sm-12 col-md-4 my-3">
-            <p>Alunni affranti negli ultimi 30 minuti</p>
-            <h2>12</h2>
-          </div>
-
-        </div>
-        <!-- todo /fake header -->
-
-        <!-- todo main contenent -->
-        <div class="row">
-
-          <div class="col-sm-12 col-md-8">
-
-            <div class="row">
-              <div class="col">
-
-                <!-- * Prossime classi -->
-                <div class="card w-100 my-3" style="width: 18rem;">
-                  <div class="card-header">
-                    <h2>Prossime classi</h2>
+                    <table class="table m-3 w-auto">
+                      <thead>
+                        <tr>
+                          <th colspan="3" scope="col">Nome</th>
+                          <th></th>
+                          <th></th>
+                          <th class="text-center" scope="col">Data inizio</th>
+                          <th class="text-center" scope="col">ROI</th>
+                          <th class="text-center" scope="col">Stato</th>
+                          <th class="text-center" scope="col">Azioni</th>
+                        </tr>
+                      </thead>
+                      <tbody class="table-group-divider">
+                        <tr>
+                          <th colspan="3" scope="row"><i class="fa-solid
+                              fa-code"></i>
+                            Classe
+                            75</th>
+                          <td></td>
+                          <td></td>
+                          <td class="text-center">15 Feb 2021</td>
+                          <td class="text-center">20%</td>
+                          <td class="text-center"><button type="button"
+                              class="btn btn-success
+                              btn-sm btn_custom">Done</button>
+                          </td>
+                          <td class="text-center">
+                            <button type="button" class="btn
+                              btn-outline-secondary btn-sm"><i
+                                class="fa-solid
+                                fa-pencil"></i></button>
+                            <button type="button" class="btn
+                              btn-outline-secondary btn-sm"><i class="fa-solid
+                                fa-trash"></i></button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th colspan="3" scope="row"><i class="fa-solid
+                              fa-code"></i>
+                            Classe
+                            76</th>
+                          <td></td>
+                          <td></td>
+                          <td class="text-center">16 Feb 2021</td>
+                          <td class="text-center">20%</td>
+                          <td class="text-center"><button type="button"
+                              class="btn btn-success
+                              btn-sm btn_custom">Done</button>
+                          </td>
+                          <td class="text-center">
+                            <button type="button" class="btn
+                              btn-outline-secondary btn-sm"><i class="fa-solid
+                                fa-pencil"></i></button>
+                            <button type="button" class="btn
+                              btn-outline-secondary btn-sm"><i class="fa-solid
+                                fa-trash"></i></button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th colspan="3" scope="row"><i class="fa-solid
+                              fa-code"></i>
+                            Classe
+                            77</th>
+                          <td></td>
+                          <td></td>
+                          <td class="text-center">17 Feb 2021</td>
+                          <td class="text-center">20%</td>
+                          <td class="text-center"><button type="button"
+                              class="btn btn-warning
+                              btn-sm btn_custom">process</button>
+                          </td>
+                          <td class="text-center">
+                            <button type="button" class="btn
+                              btn-outline-secondary btn-sm"><i class="fa-solid
+                                fa-pencil"></i></button>
+                            <button type="button" class="btn
+                              btn-outline-secondary btn-sm"><i class="fa-solid
+                                fa-trash"></i></button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th colspan="3" scope="row"><i class="fa-solid
+                              fa-code"></i>
+                            Classe
+                            78</th>
+                          <td></td>
+                          <td></td>
+                          <td class="text-center">18 Feb 2021</td>
+                          <td class="text-center">20%</td>
+                          <td class="text-center"><button type="button"
+                              class="btn btn-success
+                              btn-sm btn_custom">Done</button>
+                          </td>
+                          <td class="text-center">
+                            <button type="button" class="btn
+                              btn-outline-secondary btn-sm"><i class="fa-solid
+                                fa-pencil"></i></button>
+                            <button type="button" class="btn
+                              btn-outline-secondary btn-sm"><i class="fa-solid
+                                fa-trash"></i></button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th colspan="3" scope="row"><i class="fa-solid
+                              fa-code"></i>
+                            Classe
+                            79</th>
+                          <td></td>
+                          <td></td>
+                          <td class="text-center">19 Feb 2021</td>
+                          <td class="text-center">20%</td>
+                          <td class="text-center"><button type="button"
+                              class="btn btn-danger
+                              btn-sm btn_custom">failed</button>
+                          </td>
+                          <td class="text-center">
+                            <button type="button" class="btn
+                              btn-outline-secondary btn-sm"><i class="fa-solid
+                                fa-pencil"></i></button>
+                            <button type="button" class="btn
+                              btn-outline-secondary btn-sm"><i class="fa-solid
+                                fa-trash"></i></button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th colspan="3" scope="row"><i class="fa-solid
+                              fa-code"></i>
+                            Classe
+                            80</th>
+                          <td></td>
+                          <td></td>
+                          <td class="text-center">20 Feb 2021</td>
+                          <td class="text-center">20%</td>
+                          <td class="text-center"><button type="button"
+                              class="btn
+                              btn-success
+                              btn-sm btn_custom">Done</button>
+                          </td>
+                          <td class="text-center">
+                            <button type="button" class="btn
+                              btn-outline-secondary btn-sm"><i class="fa-solid
+                                fa-pencil"></i></button>
+                            <button type="button" class="btn
+                              btn-outline-secondary btn-sm"><i class="fa-solid
+                                fa-trash"></i></button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th colspan="3" scope="row"><i class="fa-solid
+                              fa-code"></i>
+                            Classe
+                            81</th>
+                          <td></td>
+                          <td></td>
+                          <td class="text-center">21 Feb 2021</td>
+                          <td class="text-center">20%</td>
+                          <td class="text-center"><button type="button"
+                              class="btn
+                              btn-danger
+                              btn-sm btn_custom">failed</button>
+                          </td>
+                          <td class="text-center">
+                            <button type="button" class="btn
+                              btn-outline-secondary btn-sm"><i class="fa-solid
+                                fa-pencil"></i></button>
+                            <button type="button" class="btn
+                              btn-outline-secondary btn-sm"><i class="fa-solid
+                                fa-trash"></i></button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th colspan="3" scope="row"><i class="fa-solid
+                              fa-code"></i>
+                            Classe
+                            82</th>
+                          <td></td>
+                          <td></td>
+                          <td class="text-center">22 Feb 2021</td>
+                          <td class="text-center">20%</td>
+                          <td class="text-center"><button type="button"
+                              class="btn
+                              btn-success
+                              btn-sm btn_custom">Done</button>
+                          </td>
+                          <td class="text-center">
+                            <button type="button" class="btn
+                              btn-outline-secondary btn-sm"><i class="fa-solid
+                                fa-pencil"></i></button>
+                            <button type="button" class="btn
+                              btn-outline-secondary btn-sm"><i class="fa-solid
+                                fa-trash"></i></button>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
                   </div>
+                  <!-- * /Prossime classi -->
 
-                  <table class="table m-3 w-auto">
-                    <thead>
-                      <tr>
-                        <th colspan="3" scope="col">Nome</th>
-                        <th></th>
-                        <th></th>
-                        <th class="text-center" scope="col">Data inizio</th>
-                        <th class="text-center" scope="col">ROI</th>
-                        <th class="text-center" scope="col">Stato</th>
-                        <th class="text-center" scope="col">Azioni</th>
-                      </tr>
-                    </thead>
-                    <tbody class="table-group-divider">
-                      <tr>
-                        <th colspan="3" scope="row"><i class="fa-solid fa-code"></i>
-                          Classe
-                          75</th>
-                        <td></td>
-                        <td></td>
-                        <td class="text-center">15 Feb 2021</td>
-                        <td class="text-center">20%</td>
-                        <td class="text-center"><button type="button"
-                            class="btn btn-success
-                            btn-sm btn_custom">Done</button>
-                        </td>
-                        <td class="text-center">
-                          <button type="button" class="btn
-                            btn-outline-secondary btn-sm"><i
-                              class="fa-solid
-                              fa-pencil"></i></button>
-                          <button type="button" class="btn
-                            btn-outline-secondary btn-sm"><i class="fa-solid
-                              fa-trash"></i></button>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th colspan="3" scope="row"><i class="fa-solid fa-code"></i>
-                          Classe
-                          76</th>
-                        <td></td>
-                        <td></td>
-                        <td class="text-center">16 Feb 2021</td>
-                        <td class="text-center">20%</td>
-                        <td class="text-center"><button type="button"
-                            class="btn btn-success
-                            btn-sm btn_custom">Done</button>
-                        </td>
-                        <td class="text-center">
-                          <button type="button" class="btn
-                            btn-outline-secondary btn-sm"><i class="fa-solid
-                              fa-pencil"></i></button>
-                          <button type="button" class="btn
-                            btn-outline-secondary btn-sm"><i class="fa-solid
-                              fa-trash"></i></button>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th colspan="3" scope="row"><i class="fa-solid fa-code"></i>
-                          Classe
-                          77</th>
-                        <td></td>
-                        <td></td>
-                        <td class="text-center">17 Feb 2021</td>
-                        <td class="text-center">20%</td>
-                        <td class="text-center"><button type="button"
-                            class="btn btn-warning
-                            btn-sm btn_custom">process</button>
-                        </td>
-                        <td class="text-center">
-                          <button type="button" class="btn
-                            btn-outline-secondary btn-sm"><i class="fa-solid
-                              fa-pencil"></i></button>
-                          <button type="button" class="btn
-                            btn-outline-secondary btn-sm"><i class="fa-solid
-                              fa-trash"></i></button>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th colspan="3" scope="row"><i class="fa-solid fa-code"></i>
-                          Classe
-                          78</th>
-                        <td></td>
-                        <td></td>
-                        <td class="text-center">18 Feb 2021</td>
-                        <td class="text-center">20%</td>
-                        <td class="text-center"><button type="button"
-                            class="btn btn-success
-                            btn-sm btn_custom">Done</button>
-                        </td>
-                        <td class="text-center">
-                          <button type="button" class="btn
-                            btn-outline-secondary btn-sm"><i class="fa-solid
-                              fa-pencil"></i></button>
-                          <button type="button" class="btn
-                            btn-outline-secondary btn-sm"><i class="fa-solid
-                              fa-trash"></i></button>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th colspan="3" scope="row"><i class="fa-solid fa-code"></i>
-                          Classe
-                          79</th>
-                        <td></td>
-                        <td></td>
-                        <td class="text-center">19 Feb 2021</td>
-                        <td class="text-center">20%</td>
-                        <td class="text-center"><button type="button"
-                            class="btn btn-danger
-                            btn-sm btn_custom">failed</button>
-                        </td>
-                        <td class="text-center">
-                          <button type="button" class="btn
-                            btn-outline-secondary btn-sm"><i class="fa-solid
-                              fa-pencil"></i></button>
-                          <button type="button" class="btn
-                            btn-outline-secondary btn-sm"><i class="fa-solid
-                              fa-trash"></i></button>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th colspan="3" scope="row"><i class="fa-solid fa-code"></i>
-                          Classe
-                          80</th>
-                        <td></td>
-                        <td></td>
-                        <td class="text-center">20 Feb 2021</td>
-                        <td class="text-center">20%</td>
-                        <td class="text-center"><button type="button" class="btn
-                            btn-success
-                            btn-sm btn_custom">Done</button>
-                        </td>
-                        <td class="text-center">
-                          <button type="button" class="btn
-                            btn-outline-secondary btn-sm"><i class="fa-solid
-                              fa-pencil"></i></button>
-                          <button type="button" class="btn
-                            btn-outline-secondary btn-sm"><i class="fa-solid
-                              fa-trash"></i></button>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th colspan="3" scope="row"><i class="fa-solid fa-code"></i>
-                          Classe
-                          81</th>
-                        <td></td>
-                        <td></td>
-                        <td class="text-center">21 Feb 2021</td>
-                        <td class="text-center">20%</td>
-                        <td class="text-center"><button type="button" class="btn
-                            btn-danger
-                            btn-sm btn_custom">failed</button>
-                        </td>
-                        <td class="text-center">
-                          <button type="button" class="btn
-                            btn-outline-secondary btn-sm"><i class="fa-solid
-                              fa-pencil"></i></button>
-                          <button type="button" class="btn
-                            btn-outline-secondary btn-sm"><i class="fa-solid
-                              fa-trash"></i></button>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th colspan="3" scope="row"><i class="fa-solid fa-code"></i>
-                          Classe
-                          82</th>
-                        <td></td>
-                        <td></td>
-                        <td class="text-center">22 Feb 2021</td>
-                        <td class="text-center">20%</td>
-                        <td class="text-center"><button type="button" class="btn
-                            btn-success
-                            btn-sm btn_custom">Done</button>
-                        </td>
-                        <td class="text-center">
-                          <button type="button" class="btn
-                            btn-outline-secondary btn-sm"><i class="fa-solid
-                              fa-pencil"></i></button>
-                          <button type="button" class="btn
-                            btn-outline-secondary btn-sm"><i class="fa-solid
-                              fa-trash"></i></button>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <!-- * /Prossime classi -->
+                  <!-- * Faq -->
+                  <div class="card w-100 my-3" style="width: 18rem;">
+                    <div class="card-header">
+                      <h2 class="text-uppercase ">f.a.q.</h2>
+                    </div>
 
-                <!-- * Faq -->
-                <div class="card w-100 my-3" style="width: 18rem;">
-                  <div class="card-header">
-                    <h2 class="text-uppercase ">f.a.q.</h2>
-                  </div>
-
-                  <div class="accordion accordion-flush"
-                    id="accordionFlushExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed" type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseOne"
-                          aria-expanded="false"
-                          aria-controls="flush-collapseOne">
-                          Come si sviluppa un sistema di chat in real time?
-                        </button>
-                      </h2>
-                      <div id="flush-collapseOne" class="accordion-collapse
-                        collapse" aria-labelledby="flush-headingOne"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this
-                          accordion, which is intended to demonstrate the <code>.accordion-flush</code>
-                          class. This is the first item's accordion body.</div>
+                    <div class="accordion accordion-flush"
+                      id="accordionFlushExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                          <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseOne">
+                            Come si sviluppa un sistema di chat in real time?
+                          </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse
+                          collapse" aria-labelledby="flush-headingOne"
+                          data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Placeholder content for
+                            this
+                            accordion, which is intended to demonstrate the
+                            <code>.accordion-flush</code>
+                            class. This is the first item's accordion body.</div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                          <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseTwo">
+                            Posso usare position: absolute per allineare le
+                            colonne?
+                          </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse
+                          collapse" aria-labelledby="flush-headingTwo"
+                          data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Placeholder content for
+                            this
+                            accordion, which is intended to demonstrate the
+                            <code>.accordion-flush</code>
+                            class. This is the second item's accordion body.
+                            Let's
+                            imagine this being filled with some actual content.</div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                          <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Il mio sito &egrave; responsive
+                          </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse
+                          collapse" aria-labelledby="flush-headingThree"
+                          data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Placeholder content for
+                            this
+                            accordion, which is intended to demonstrate the
+                            <code>.accordion-flush</code>
+                            class. This is the third item's accordion body.
+                            Nothing more exciting happening here in terms of
+                            content, but just filling up the space to make it
+                            look, at least at first glance, a bit more
+                            representative of how this would look in a
+                            real-world
+                            application.</div>
+                        </div>
                       </div>
                     </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingTwo">
-                        <button class="accordion-button collapsed" type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseTwo"
-                          aria-expanded="false"
-                          aria-controls="flush-collapseTwo">
-                          Posso usare position: absolute per allineare le
-                          colonne?
-                        </button>
-                      </h2>
-                      <div id="flush-collapseTwo" class="accordion-collapse
-                        collapse" aria-labelledby="flush-headingTwo"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this
-                          accordion, which is intended to demonstrate the <code>.accordion-flush</code>
-                          class. This is the second item's accordion body. Let's
-                          imagine this being filled with some actual content.</div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingThree">
-                        <button class="accordion-button collapsed" type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseThree"
-                          aria-expanded="false"
-                          aria-controls="flush-collapseThree">
-                          Il mio sito &egrave; responsive
-                        </button>
-                      </h2>
-                      <div id="flush-collapseThree" class="accordion-collapse
-                        collapse" aria-labelledby="flush-headingThree"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this
-                          accordion, which is intended to demonstrate the <code>.accordion-flush</code>
-                          class. This is the third item's accordion body.
-                          Nothing more exciting happening here in terms of
-                          content, but just filling up the space to make it
-                          look, at least at first glance, a bit more
-                          representative of how this would look in a real-world
-                          application.</div>
-                      </div>
-                    </div>
+
                   </div>
+                  <!-- * /Faq -->
+
 
                 </div>
-                <!-- * /Faq -->
-
-
               </div>
+
             </div>
 
-          </div>
+            <div class="col-sm-12 col-md-4">
+              <!-- * main card -->
+              <div class="card w-100 my-3" style="width: 18rem;">
+                <div class="card-header">
+                  <h2>Todo</h2>
+                </div>
 
-          <div class="col-sm-12 col-md-4">
-            <!-- * main card -->
-            <div class="card w-100 my-3" style="width: 18rem;">
-              <div class="card-header">
-                <h2>Todo</h2>
+                <!-- * card con check -->
+                <div class="card m-3 mx-auto card_custom">
+
+                  <ul class="list-group list-group-flush">
+
+                    <li class="list-group-item">
+
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value=""
+                          id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Avvisare gli alunni
+                        </label>
+                      </div>
+
+                    </li>
+
+                    <li class="list-group-item">
+
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value=""
+                          id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Lezione su Bootstrap 5
+                        </label>
+                      </div>
+
+                    </li>
+
+                    <li class="list-group-item">
+
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value=""
+                          id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Conquistare il mondo con laralel
+                        </label>
+                      </div>
+
+                    </li>
+                  </ul>
+                </div>
+                <!-- * /card con check -->
+
               </div>
+              <!-- * /main card -->
 
-              <!-- * card con check -->
-              <div class="card m-3 mx-auto card_custom">
-
+              <!--  * card grafico -->
+              <div class="card mb-3">
+                <img src="assets/img/Histogram.png" class=" m-3"
+                  alt="Histogram">
+                <div class="card-body">
+                  <h5 class="card-title">Utenti attivi</h5>
+                  <p class="card-text">Lista utenti attivi in piattaforma
+                    nell'ultimo mese</p>
+                </div>
                 <ul class="list-group list-group-flush">
-
-                  <li class="list-group-item">
-
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value=""
-                        id="flexCheckDefault">
-                      <label class="form-check-label" for="flexCheckDefault">
-                        Avvisare gli alunni
-                      </label>
-                    </div>
-
-                  </li>
-
-                  <li class="list-group-item">
-
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value=""
-                        id="flexCheckDefault">
-                      <label class="form-check-label" for="flexCheckDefault">
-                        Lezione su Bootstrap 5
-                      </label>
-                    </div>
-
-                  </li>
-
-                  <li class="list-group-item">
-
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value=""
-                        id="flexCheckDefault">
-                      <label class="form-check-label" for="flexCheckDefault">
-                        Conquistare il mondo con laralel
-                      </label>
-                    </div>
-
-                  </li>
+                  <li class="list-group-item">Gennaio: 1200</li>
+                  <li class="list-group-item">Febbraio: 800</li>
+                  <li class="list-group-item">Marzo: 1500</li>
                 </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Visualizza report approfondito</a>
+                </div>
               </div>
-              <!-- * /card con check -->
+
+              <!--  * /card grafico -->
+
 
             </div>
-            <!-- * /main card -->
-
-            <!--  * card grafico -->
-            <div class="card mb-3">
-              <img src="assets/img/Histogram.png" class=" m-3"
-                alt="Histogram">
-              <div class="card-body">
-                <h5 class="card-title">Utenti attivi</h5>
-                <p class="card-text">Lista utenti attivi in piattaforma
-                  nell'ultimo mese</p>
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Gennaio: 1200</li>
-                <li class="list-group-item">Febbraio: 800</li>
-                <li class="list-group-item">Marzo: 1500</li>
-              </ul>
-              <div class="card-body">
-                <a href="#" class="card-link">Visualizza report approfondito</a>
-              </div>
-            </div>
-
-            <!--  * /card grafico -->
-
 
           </div>
+          <!-- todo /main contenent -->
+
 
         </div>
-        <!-- todo /main contenent -->
 
 
-      </div>
+      </main>
 
-
-    </main>
-
-  </body>
-</html>
+    </body>
+  </html>
