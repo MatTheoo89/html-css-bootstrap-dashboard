@@ -13,5 +13,24 @@ main {
   overflow: auto;
 
   /* * debug */
-  background-color: blueviolet;
+  background-color: rgb(33, 4, 59);
+}
+
+
+
+/*  ! ASIDE  */
+.aside {
+  width: 160px;
+  color: #fff;
+  background-color: #051E34;
+  background-image: url('../img/sidebar-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*  ! MAIN - WRAPPER  */
+.main-wrapper {
+  width: calc(100% - 160px);
+  /*width aside*/
 }
