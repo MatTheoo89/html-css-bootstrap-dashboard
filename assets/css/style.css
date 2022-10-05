@@ -44,3 +44,17 @@ main {
 .text-bg-primary_custom {
   background-color: #155CBA !important;
 }
+
+/* todo main contenent */
+
+/* * Prossime classi*/
+i.fa-solid.fa-code {
+  color: #fff;
+  background-color: #F26551;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  margin-right: 2px;
+}
