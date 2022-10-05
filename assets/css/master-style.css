@@ -1,3 +1,10 @@
+/* fonts */
+body {
+  font-family: 'Poppins', sans-serif;
+
+  font-family: 'Roboto', sans-serif;
+}
+
 /**  DEBUG  **/
 
 .debug-1 {
@@ -13,4 +20,21 @@
 .debug-3 {
   background-color: rgba(0, 0, 255, .35);
   border: 1px solid blue;
+}
+
+/*  ! HEADER  */
+
+header {
+  height: 75px;
+  background-color: #067df5;
+}
+
+
+/*  ! MAIN  */
+main {
+  height: calc(100vh - 75px);
+  /*height header*/
+
+  /* * debug */
+  background-color: blueviolet;
 }
