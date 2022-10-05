@@ -49,7 +49,7 @@ header {
   margin-right: 20px;
 }
 
-.bells_icon_custom i {
+i.fa-bell {
   font-size: 1.2rem;
   color: #FF8F00;
 }
