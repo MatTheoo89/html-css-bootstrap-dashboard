@@ -7,6 +7,11 @@ body {
 
 /**  DEBUG  **/
 
+.debug-0 {
+  background-color: rgba(255, 255, 255, 0.25);
+  border: 2px solid white;
+}
+
 .debug-1 {
   background-color: rgba(255, 0, 0, 0.35);
   border: 1px solid red;
@@ -22,7 +27,11 @@ body {
   border: 1px solid blue;
 }
 
-
+/* ! TUTTO DI DEBUG DA CANCELLARE*/
 [class^=col] {
   min-height: 500px;
+}
+
+.row_header {
+  height: 200px;
 }

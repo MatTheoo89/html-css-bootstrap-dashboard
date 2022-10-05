@@ -2,7 +2,7 @@
 
 header {
   height: 75px;
-  background-color: #067df5;
+  background-color: #868686;
 }
 
 
@@ -13,10 +13,13 @@ main {
   overflow: auto;
 
   /* * debug */
-  background-color: rgb(33, 4, 59);
+  background-color: rgb(10, 10, 10);
 }
 
-
+.main-wrapper {
+  width: calc(100% - 160px);
+  /*width aside*/
+}
 
 /*  ! ASIDE  */
 .aside {
@@ -30,7 +33,14 @@ main {
 
 
 /*  ! MAIN - WRAPPER  */
-.main-wrapper {
-  width: calc(100% - 160px);
-  /*width aside*/
+
+/* todo fake header */
+
+.row_header {
+  color: #fff;
+  background-color: #067df5;
+}
+
+.text-bg-primary_custom {
+  background-color: #155CBA !important;
 }
