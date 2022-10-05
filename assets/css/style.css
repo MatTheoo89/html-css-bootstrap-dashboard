@@ -76,7 +76,7 @@ main {
 
 /*  ! ASIDE  */
 .aside {
-  height: calc(100vh + 90px);
+  height: calc(100vh - 90px);
   /* ! da fixare altezza*/
   width: 10%;
   color: #fff;
