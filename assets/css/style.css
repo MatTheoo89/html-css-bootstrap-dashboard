@@ -2,9 +2,57 @@
 
 header {
   height: 90px;
-  background-color: #868686;
+  background-color: #fff;
 }
 
+/* !!!!!!!!!!!!!!!!!!!!!!!!! barra search*/
+
+.form {
+  position: relative;
+}
+
+.form .fa-search {
+
+  position: absolute;
+  top: 13px;
+  left: 20px;
+  color: #9ca3af;
+}
+
+.left-pan {
+  padding-left: 7px;
+}
+
+.left-pan i {
+  padding-left: 10px;
+}
+
+.form-input {
+
+  height: 40px;
+  font-size: .8rem;
+  text-indent: 33px;
+  border-radius: 10px;
+}
+
+.form-control_custom {
+  background-color: #e5e5e5;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!! /barra search*/
+
+/* * icone header */
+
+.custom_icons i {
+  color: grey;
+  font-size: 1.2rem;
+  margin-right: 20px;
+}
+
+.bells_icon_custom i {
+  font-size: 1.2rem;
+  color: #FF8F00;
+}
 
 /*  ! MAIN  */
 main {
