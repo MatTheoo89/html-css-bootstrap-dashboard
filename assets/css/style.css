@@ -1,0 +1,17 @@
+/*  ! HEADER  */
+
+header {
+  height: 75px;
+  background-color: #067df5;
+}
+
+
+/*  ! MAIN  */
+main {
+  height: calc(100vh - 75px);
+  /*height header*/
+  overflow: auto;
+
+  /* * debug */
+  background-color: blueviolet;
+}

@@ -22,19 +22,7 @@ body {
   border: 1px solid blue;
 }
 
-/*  ! HEADER  */
 
-header {
-  height: 75px;
-  background-color: #067df5;
-}
-
-
-/*  ! MAIN  */
-main {
-  height: calc(100vh - 75px);
-  /*height header*/
-
-  /* * debug */
-  background-color: blueviolet;
+[class^=col] {
+  min-height: 500px;
 }
