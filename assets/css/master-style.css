@@ -1,11 +1,24 @@
 /* fonts */
 aside {
   font-family: 'Poppins', sans-serif;
-
 }
 
 .main_wrapper {
   font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+tbody tr th {
+  font-weight: 400;
+}
+
+tbody tr th,
+tbody tr td {
+  font-size: .9rem;
+
 }
 
 /**  DEBUG  **/

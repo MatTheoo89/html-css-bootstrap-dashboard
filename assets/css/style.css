@@ -17,13 +17,13 @@ main {
 }
 
 .main-wrapper {
-  width: calc(100% - 160px);
+  width: 85%;
   /*width aside*/
 }
 
 /*  ! ASIDE  */
 .aside {
-  width: 160px;
+  width: 15%;
   color: #fff;
   background-color: #051E34;
   background-image: url('../img/sidebar-bg.png');
@@ -59,4 +59,19 @@ i.fa-solid.fa-code {
   margin-right: 2px;
 }
 
+.btn_custom {
+  color: #fff;
+  font-size: .7rem;
+  font-weight: 600;
+  padding: 1px 5px;
+}
+
 /* * Faq */
+
+/* Todo TODO */
+
+/* * card */
+
+.card_custom {
+  width: 22rem;
+}
