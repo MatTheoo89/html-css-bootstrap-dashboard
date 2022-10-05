@@ -1,7 +1,10 @@
 /* fonts */
-body {
+aside {
   font-family: 'Poppins', sans-serif;
 
+}
+
+.main_wrapper {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -28,10 +31,3 @@ body {
 }
 
 /* ! TUTTO DI DEBUG DA CANCELLARE*/
-[class^=col] {
-  min-height: 500px;
-}
-
-.row_header {
-  height: 200px;
-}
