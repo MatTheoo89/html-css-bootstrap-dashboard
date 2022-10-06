@@ -164,6 +164,12 @@ i.fa-solid.fa-code {
   padding: 1px 5px;
 }
 
+/* * OFF CANVAS */
+
+.offcanvas.offcanvas-end.custom_widht {
+  width: 65%;
+}
+
 /* * Faq */
 
 /* Todo TODO */
