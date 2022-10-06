@@ -59,6 +59,12 @@ header {
   color: #FF8F00;
 }
 
+.btn.btn-bell:active,
+.btn.btn-bell:focus {
+  border: 0;
+
+}
+
 /*  ! MAIN  */
 main {
   height: calc(100vh - 90px);
