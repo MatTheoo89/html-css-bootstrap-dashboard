@@ -186,19 +186,43 @@
 
                   <!-- * Prossime classi -->
                   <div class="card w-100 my-3" style="width: 18rem;">
-                    <div class="card-header">
+                    <div class="card-header d-flex justify-content-between">
                       <h2>Prossime classi</h2>
+
+                      <!-- * Off Canvas -->
+                      <button class="btn btn-outline-primary btn_square_custom"
+                        type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight"
+                        aria-controls="offcanvasRight">
+                        <i class="fa-solid
+                          fa-plus"></i>
+                      </button>
+                      <div class="offcanvas offcanvas-end" tabindex="-1"
+                        id="offcanvasRight"
+                        aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas
+                            right</h5>
+                          <button type="button" class="btn-close"
+                            data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                          ...
+                        </div>
+                      </div>
+
                     </div>
 
-                    <table class="table m-3 w-auto">
+                    <table class="table-responsive m-3 w-auto">
                       <thead>
                         <tr>
-                          <th colspan="3" scope="col" style="width: 40%">Nome</th>
-                          <th></th>
-                          <th></th>
-                          <th class="text-center" scope="col" style="width:
+                          <th scope="col" style="width: 40%">Nome</th>
+                          <th class="text-center d-none d-lg-table-cell"
+                            scope="col" style="width:
                             20%">Data inizio</th>
-                          <th class="text-center" scope="col" style="width:
+                          <th class="text-center d-none d-md-table-cell"
+                            scope="col" style="width:
                             10%">ROI</th>
                           <th class="text-center" scope="col" style="width:
                             10%">Stato</th>
@@ -208,14 +232,13 @@
                       </thead>
                       <tbody class="table-group-divider">
                         <tr>
-                          <th colspan="3" scope="row"><i class="fa-solid
+                          <th scope="row"><i class="fa-solid
                               fa-code"></i>
                             Classe
                             75</th>
-                          <td></td>
-                          <td></td>
-                          <td class="text-center">15 Feb 2021</td>
-                          <td class="text-center">20%</td>
+                          <td class="text-center d-none d-lg-table-cell">15 Feb
+                            2021</td>
+                          <td class="text-center d-none d-md-table-cell">20%</td>
                           <td class="text-center"><button type="button"
                               class="btn btn-success
                               btn-sm btn_custom">Done</button>
@@ -231,14 +254,13 @@
                           </td>
                         </tr>
                         <tr>
-                          <th colspan="3" scope="row"><i class="fa-solid
+                          <th scope="row"><i class="fa-solid
                               fa-code"></i>
                             Classe
                             76</th>
-                          <td></td>
-                          <td></td>
-                          <td class="text-center">16 Feb 2021</td>
-                          <td class="text-center">20%</td>
+                          <td class="text-center d-none d-lg-table-cell">16 Feb
+                            2021</td>
+                          <td class="text-center d-none d-md-table-cell">20%</td>
                           <td class="text-center"><button type="button"
                               class="btn btn-success
                               btn-sm btn_custom">Done</button>
@@ -253,14 +275,13 @@
                           </td>
                         </tr>
                         <tr>
-                          <th colspan="3" scope="row"><i class="fa-solid
+                          <th scope="row"><i class="fa-solid
                               fa-code"></i>
                             Classe
                             77</th>
-                          <td></td>
-                          <td></td>
-                          <td class="text-center">17 Feb 2021</td>
-                          <td class="text-center">20%</td>
+                          <td class="text-center d-none d-lg-table-cell">17 Feb
+                            2021</td>
+                          <td class="text-center d-none d-md-table-cell">20%</td>
                           <td class="text-center"><button type="button"
                               class="btn btn-warning
                               btn-sm btn_custom">process</button>
@@ -275,14 +296,13 @@
                           </td>
                         </tr>
                         <tr>
-                          <th colspan="3" scope="row"><i class="fa-solid
+                          <th scope="row"><i class="fa-solid
                               fa-code"></i>
                             Classe
                             78</th>
-                          <td></td>
-                          <td></td>
-                          <td class="text-center">18 Feb 2021</td>
-                          <td class="text-center">20%</td>
+                          <td class="text-center d-none d-lg-table-cell">18 Feb
+                            2021</td>
+                          <td class="text-center d-none d-md-table-cell">20%</td>
                           <td class="text-center"><button type="button"
                               class="btn btn-success
                               btn-sm btn_custom">Done</button>
@@ -297,14 +317,13 @@
                           </td>
                         </tr>
                         <tr>
-                          <th colspan="3" scope="row"><i class="fa-solid
+                          <th scope="row"><i class="fa-solid
                               fa-code"></i>
                             Classe
                             79</th>
-                          <td></td>
-                          <td></td>
-                          <td class="text-center">19 Feb 2021</td>
-                          <td class="text-center">20%</td>
+                          <td class="text-center d-none d-lg-table-cell">19 Feb
+                            2021</td>
+                          <td class="text-center d-none d-md-table-cell">20%</td>
                           <td class="text-center"><button type="button"
                               class="btn btn-danger
                               btn-sm btn_custom">failed</button>
@@ -319,14 +338,13 @@
                           </td>
                         </tr>
                         <tr>
-                          <th colspan="3" scope="row"><i class="fa-solid
+                          <th scope="row"><i class="fa-solid
                               fa-code"></i>
                             Classe
                             80</th>
-                          <td></td>
-                          <td></td>
-                          <td class="text-center">20 Feb 2021</td>
-                          <td class="text-center">20%</td>
+                          <td class="text-center d-none d-lg-table-cell">20 Feb
+                            2021</td>
+                          <td class="text-center d-none d-md-table-cell">20%</td>
                           <td class="text-center"><button type="button"
                               class="btn
                               btn-success
@@ -342,14 +360,13 @@
                           </td>
                         </tr>
                         <tr>
-                          <th colspan="3" scope="row"><i class="fa-solid
+                          <th scope="row"><i class="fa-solid
                               fa-code"></i>
                             Classe
                             81</th>
-                          <td></td>
-                          <td></td>
-                          <td class="text-center">21 Feb 2021</td>
-                          <td class="text-center">20%</td>
+                          <td class="text-center d-none d-lg-table-cell">21 Feb
+                            2021</td>
+                          <td class="text-center d-none d-md-table-cell">20%</td>
                           <td class="text-center"><button type="button"
                               class="btn
                               btn-danger
@@ -365,14 +382,13 @@
                           </td>
                         </tr>
                         <tr>
-                          <th colspan="3" scope="row"><i class="fa-solid
+                          <th scope="row"><i class="fa-solid
                               fa-code"></i>
                             Classe
                             82</th>
-                          <td></td>
-                          <td></td>
-                          <td class="text-center">22 Feb 2021</td>
-                          <td class="text-center">20%</td>
+                          <td class="text-center d-none d-lg-table-cell">22 Feb
+                            2021</td>
+                          <td class="text-center d-none d-md-table-cell">20%</td>
                           <td class="text-center"><button type="button"
                               class="btn
                               btn-success

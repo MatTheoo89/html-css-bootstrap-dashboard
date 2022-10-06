@@ -68,15 +68,14 @@ main {
 }
 
 .main-wrapper {
-  height: calc(100vh - 90px);
-  overflow: auto;
+  height: 100%;
   width: 90%;
   /*width aside*/
 }
 
 /*  ! ASIDE  */
 .aside {
-  height: calc(100vh - 90px);
+  height: 100%;
   /* ! da fixare altezza*/
   width: 10%;
   color: #fff;
@@ -148,6 +147,10 @@ i.fa-solid.fa-code {
   line-height: 28px;
   text-align: center;
   margin-right: 2px;
+}
+
+.btn_square_custom {
+  padding: 10px 15px;
 }
 
 .btn_custom {
