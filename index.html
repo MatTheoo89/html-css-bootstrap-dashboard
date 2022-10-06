@@ -43,26 +43,28 @@
 
           <div class="col-2 d-flex align-items-center col-logo">
             <div class="logo d-flex">
-              <img class="logo-large d-none d-lg-block"
+              <img class="logo-large d-none d-md-block"
                 src="assets/img/logo.svg" alt="logo">
-              <img class="logo-mobile d-lg-none"
+              <img class="logo-mobile d-md-none"
                 src="assets/img/mobile-logo.png"
                 alt="logo-mobile">
             </div>
           </div>
 
-          <div class="col d-flex align-items-center me-2">
+          <div class="col d-flex align-items-center">
             <div class="form w-100">
               <i class="fa fa-search"></i>
               <input type="text" class="form-control form-input
                 form-control_custom"
-                placeholder="Scrivi per ricercare...'">
+                placeholder="Prova a cercare 'Quanti ragazzi di classe 75
+                mangiano la pizza?'">
             </div>
           </div>
 
-          <div class="col-2 d-flex align-items-center justify-content-center
+          <div class="col-2 col-md-3 d-flex flex-nowrap align-items-center
+            justify-content-center
             navbar-right">
-            <div class="icons_custom d-none d-lg-block">
+            <div class="icons_custom d-none d-md-block">
               <i class="fa-solid fa-list"></i>
               <i class="fa-solid fa-circle-question"></i>
               <i class="fa-solid fa-ellipsis-vertical"></i>
@@ -77,7 +79,8 @@
       <main class="d-flex">
 
         <div class="aside">
-          <div class="aside nav-mobile d-md-none d-flex flex-column
+
+          <div class="nav-mobile d-md-none d-flex flex-column
             justify-content-between py-4 px-2">
 
             <!-- * navbar top da tablet in su -->
@@ -109,8 +112,9 @@
             <!-- * /navbar bottom da tablet in su -->
 
           </div>
-          <div class="aside nav-tablet d-none d-md-flex d-flex flex-column
-            justify-content-between p-4">
+
+          <div class="nav-tablet d-none d-md-flex flex-column
+            justify-content-between p-2 py-4">
 
             <!-- * navbar top da tablet in su -->
             <div class="navbar-top">
@@ -155,24 +159,29 @@
             <!-- todo fake header -->
             <div class="row row_header">
 
-              <div class="col-sm-12 col-md-8 my-3">
-                <div class="box_custum">
-                  <h2 class="d-inline">Boolean</h2>
+              <div class="col-sm-12 col-md-8 my-2">
+
+                <div class="box_custum mb-2">
+                  <h2 class="d-inline me-2">Boolean</h2>
                   <span class="badge rounded-pill text-bg-primary
                     text-bg-primary_custom d-inline-block">Piano blaze</span>
                 </div>
 
                 <span class="badge rounded-pill text-bg-primary
                   text-bg-primary_custom">3 app</span>
+
+                <i class="fa-solid fa-angles-right d-lg-none "></i>
                 <span class="badge rounded-pill text-bg-primary
-                  text-bg-primary_custom">Boolean mobile app</span>
+                  text-bg-primary_custom d-lg-none"><i class="fa-solid fa-plus"></i></span>
                 <span class="badge rounded-pill text-bg-primary
-                  text-bg-primary_custom">Boolean web app</span>
+                  text-bg-primary_custom d-none d-lg-inline">Boolean mobile app</span>
                 <span class="badge rounded-pill text-bg-primary
-                  text-bg-primary_custom">Boolean blog app</span>
+                  text-bg-primary_custom d-none d-lg-inline">Boolean web app</span>
+                <span class="badge rounded-pill text-bg-primary
+                  text-bg-primary_custom d-none d-lg-inline">Boolean blog app</span>
               </div>
 
-              <div class="col-sm-12 col-md-4 my-3">
+              <div class="col-sm-12 col-md-4 my-1">
                 <p>Alunni affranti negli ultimi 30 minuti</p>
                 <h2>12</h2>
               </div>

@@ -69,7 +69,7 @@ main {
 .main_wrapper {
   height: 100%;
   overflow: auto;
-  width: 90%;
+  width: 88%;
   /*width aside*/
 }
 
@@ -77,7 +77,7 @@ main {
 .aside {
   height: 100%;
   /* ! da fixare altezza*/
-  width: 10%;
+  width: 12%;
   color: #fff;
   background-color: #051E34;
   background-image: url('../img/sidebar-bg.png');
@@ -133,6 +133,10 @@ main {
 
 .text-bg-primary_custom {
   background-color: #155CBA !important;
+}
+
+.fa-solid.fa-angles-right {
+  font-size: .7rem;
 }
 
 /* todo main contenent */
